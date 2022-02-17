@@ -25,7 +25,9 @@ public class Animal {
 		
 	}
 	
-	public void move() {
+	public void move(int speed) {
+		System.out.println("Animal.move() was called.");
+		System.out.println("animal is moving at speed= " + speed);
 		
 	}
 
