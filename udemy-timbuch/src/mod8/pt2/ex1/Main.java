@@ -1,6 +1,6 @@
 package mod8.pt2.ex1;
 
-import java.util.ArrayList;
+//import java.util.ArrayList;
 import java.util.Scanner;
 
 //import javax.naming.directory.ModificationItem;
@@ -40,9 +40,9 @@ public class Main {
 			case 5: 
 				searchForItem();
 				break;
-			case 6: 
-				
-				break;				
+//			case 6: 
+//				processArrayList();
+//				break;				
 			case 7: default:
 				quit = true;
 				break;
@@ -83,12 +83,18 @@ public class Main {
 			System.out.println(searchItem + " is not in list!");
 		}
 	}
-/*	
-public static void processArrayList() {
-	ArrayList<String> newArray = new ArrayList<String>();
-	newArray.addAll(gl.getClass());
 	
-	ArrayList<String> nextArray = new ArrayList<String>(gl.getGroceryList());
-}
-*/
+	/*
+	public static void processArrayList() {
+		ArrayList<String> newArray = new ArrayList<String>();
+		newArray.addAll(gl.getGroceryList());
+	
+		ArrayList<String> nextArray = new ArrayList<String>(gl.getGroceryList());
+	
+		String[] myArray = new String[gl.getGroceryList().size()];
+		myArray = gl.getGroceryList().toArray(myArray);
+	}
+	*/
+	
+	
 }
