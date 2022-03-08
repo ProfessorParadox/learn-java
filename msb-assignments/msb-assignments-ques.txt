@@ -1,0 +1,4 @@
+Questions
+Q1- Use multithreading to build a string, with each character corresponding to running thread
+Q2- Process every 5 lines from this file trim the spaces if any , map it to their hex value using lambda expressions print it in a result file as (key, value(hex)) using the executor framework of 5 threads in the pool.
+Q3- Sample web app by utilizing the above learned concepts- java core, java 8, multithreading.
