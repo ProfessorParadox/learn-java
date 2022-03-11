@@ -1,6 +1,10 @@
 package task2;
 
-public class Main {
+class HexMapper {
+	
+}
+
+public class TaskSolution{
 
 	public static void main(String[] args) {
 		
