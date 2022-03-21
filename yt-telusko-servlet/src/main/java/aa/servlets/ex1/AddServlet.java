@@ -54,6 +54,7 @@ public class AddServlet extends HttpServlet {
 		//client will again request for square servlet 
 		//and then also cookies will be sent to servlet
 		//but then request object will be used to get cookies
+		//
 		
 				
 	}
