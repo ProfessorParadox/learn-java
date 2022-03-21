@@ -21,8 +21,11 @@ public class MyServlet extends HttpServlet {
 //		out.println(namestr);
 		
 		String name = "Paradox";
-		
 		request.setAttribute("label", name);
+		
+		Student s = new Student(1, "Paradox");
+		request.setAttribute("student", s);
+		
 		RequestDispatcher rd = request.getRequestDispatcher("display.jsp");
 		rd.forward(request, response);
 	}
