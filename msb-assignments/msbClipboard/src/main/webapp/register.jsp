@@ -16,5 +16,9 @@
 		Enter password : <input type="password" name="pass" ><br>
 		<input type="submit" value="Register User">
 	</form>
+	
+	<!-- code to index -->
+	<a href="index.jsp">----> Back To Index</a>
+	
 </body>
 </html>

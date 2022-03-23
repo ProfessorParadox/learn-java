@@ -1,15 +1,15 @@
 package com.register.model;
 
 public class User {
-	String uid;
+	int uid=0;
 	String uname;
 	String email;
 	String pass;
 	
-	public String getUid() {
+	public int getUid() {
 		return uid;
 	}
-	public void setUid(String uid) {
+	public void setUid(int uid) {
 		this.uid = uid;
 	}
 	public String getUname() {

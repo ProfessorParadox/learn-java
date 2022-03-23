@@ -31,14 +31,14 @@ public class Register extends HttpServlet {
 		
 		RegisterUserDao registeruserdao = new RegisterUserDao();
 		
-		if(registeruserdao.registerNewUser(newUser)) {
+		if(registeruserdao.registerNewUser(newUser)) {	//user registered test
 			
 //			HttpSession session = request.getSession();
 //			session.setAttribute("uname", uname);
-			response.sendRedirect("login.jsp");
+			response.sendRedirect("login.jsp");			//user registered success
 		}
 		else {
-			response.sendRedirect("register.jsp");
+			response.sendRedirect("register.jsp");		//user registered fail
 		}
 		
 	}
