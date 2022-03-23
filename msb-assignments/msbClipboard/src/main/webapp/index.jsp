@@ -4,9 +4,13 @@
 <html>
 <head>
 <meta charset="ISO-8859-1">
-<title>Insert title here</title>
+<title>Test Index Page</title>
 </head>
 <body>
-
+	<h1>MSB Clipboard Web App : Index</h1>
+	<br><br><br>
+	<h3><a href="login.jsp">Login Page</a></h3>
+	<br><br><br>
+	<h3><a href="aboutus.jsp">About Us Page</a></h3>
 </body>
 </html>
