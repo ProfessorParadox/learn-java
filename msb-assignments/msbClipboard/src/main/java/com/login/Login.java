@@ -14,7 +14,7 @@ import com.login.dao.LoginDao;
 //@WebServlet("/Login")
 public class Login extends HttpServlet {
 	
-	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+	protected void doPost( HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		
 		String uname = request.getParameter("uname");
 		String pass = request.getParameter("pass");

@@ -5,7 +5,6 @@ import java.sql.DriverManager;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 
-
 public class LoginDao {
 	
 	String url = "jdbc:mysql://localhost:3306/msb_clipboard_db";
